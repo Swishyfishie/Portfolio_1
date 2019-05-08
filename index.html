@@ -7,16 +7,18 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Portfolio</title>
 </head>
-<body class="d-flex justify-content-">
+<body>
+  <div class="wrapper">
   <header>
-    <nav id="sidebar" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav id="sidebar" class="navbar navbar-expand-lg navbar-dark bg-primary">
       <img src="images/profile-picture4.jpg" alt="profile-picture" class="profile-picture img-fluid img-profile mx-auto mb-2">
-      <ul class="nav-list">
-        <li><a href="#" class="text-decoration-none line">About</a></li>
-        <li><a href="#" class="text-decoration-none line">Projects</a></li>
+      <ul class="nav-list flex-column">
+        <li><a href="#about" class="text-decoration-none line">About</a></li>
+        <li><a href="#projects" class="text-decoration-none line">Projects</a></li>
         <li><a href="#" class="text-decoration-none line">Education</a></li>
         <li><a href="#" class="text-decoration-none line">Skills</a></li>
         <li><a href="#" class="text-decoration-none line">Contact</a></li>
@@ -24,21 +26,57 @@
     </nav>
   </header>
   <!-- CONTENT -->
-  <div class="container-fluid p-0 mh-100">
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center justify-content-center">
+  <div class="container-fluid">
+    <section class="resume-section p-3 p-lg-5 " id="about">
       <div class="w-100 ">
         <h1 class="mb-0">Claudiu <span>Andrei</span></h1>
         <h2>Worcester, UK</h2>
         <p>I am a new web developer who's looking to land a job in the field. Open for colaborations and projects of all kinds.</p>
         <div class="icon-list">
-        <a href="#" class="icon"><i class="fab fa-facebook-f fa-3x"></i></a>
-        <a href="#" class="icon"><i class="fab fa-linkedin-in fa-3x"></i></a>
-        <a href="#" class="icon"><i class="fab fa-twitter fa-3x"></i></a>
-        <a href="#" class="icon"><i class="fab fa-github fa-3x"></i></a>
+          <a href="#" class="icon"><i class="fab fa-facebook-f fa-3x"></i></a>
+          <a href="#" class="icon"><i class="fab fa-linkedin-in fa-3x"></i></a>
+          <a href="#" class="icon"><i class="fab fa-twitter fa-3x"></i></a>
+          <a href="#" class="icon"><i class="fab fa-github fa-3x"></i></a>
+        </div>
       </div>
-      </div>
+      <p class="pt-5">
+        Self-taught aspiring full stack developer.
+      </p>
+    </section>
+    <!-- PROJECTS -->
+    <section class="container-fluid p-3 p-lg-5">
+      <h2>Projects and Codepens
+      </h2>
+
+
+      <h4 class="m-5">Task list | HTML + JavaScript</h4>
+      <p class="codepen" data-height="436" data-theme-id="light" data-default-tab="result" data-user="Swishyfishie" data-slug-hash="GLNBgx" style="height: 200px; width: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Nice-Task-List">
+      <span>See the Pen <a href="https://codepen.io/Swishyfishie/pen/GLNBgx/">
+      Nice-Task-List</a> by Claudiu Andrei (<a href="https://codepen.io/Swishyfishie">@Swishyfishie</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>      
+  
+
+      <h4 class="m-5">Simple Loan Calculator | HTML + JavaScript</h4>
+      <p class="codepen" data-height="619" data-theme-id="light" data-default-tab="result" data-user="Swishyfishie" data-slug-hash="rbjoyw" style="height: 619px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Loan calculator">
+      <span>See the Pen <a href="https://codepen.io/Swishyfishie/pen/rbjoyw/">
+      Loan calculator</a> by Claudiu Andrei (<a href="https://codepen.io/Swishyfishie">@Swishyfishie</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+
+
+      <h4 class="m-5">Css animation loader | HTML + CSS</h4>  
+      <p class="codepen" data-height="242" data-theme-id="light" data-default-tab="result" data-user="Swishyfishie" data-slug-hash="GLKQRj" style="height: 242px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Undecided-shapes-loading-animation">
+      <span>See the Pen <a href="https://codepen.io/Swishyfishie/pen/GLKQRj/">
+      Undecided-shapes-loading-animation</a> by Claudiu Andrei (<a href="https://codepen.io/Swishyfishie">@Swishyfishie</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+      </p>
+
+      <h4 class="m-5">More to be added...</h4>
     </section>
   </div>
+</div>
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

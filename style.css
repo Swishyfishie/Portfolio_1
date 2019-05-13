@@ -110,14 +110,28 @@ i{
   }
   #sidebar {
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     position: relative;
-    font-size: .70rem;
+
   }
   .profile-picture {
    display: none;
   }
+  header > nav > ul {
+    display:flex;
+    margin-bottom: 0;
+  }
+  header > nav > ul > li {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+  }
+}
 
+@media screen and (max-width: 569px) { /* Iphone5/SE*/
+  header > nav > ul > li {
+    margin-right: 0.5rem;
+    font-size: .8rem;
+  }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1024px) { /* ipad pro*/

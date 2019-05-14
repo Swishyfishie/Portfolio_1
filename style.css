@@ -49,9 +49,7 @@ a{
   font-weight: 800;
   line-height: 3;
 }
-a:hover {
-  /* color: white !important; */
-}
+
 
 .container-fluid {
   padding-left: 260px !important;

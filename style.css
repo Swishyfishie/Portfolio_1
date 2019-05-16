@@ -116,14 +116,55 @@ hr.style4 {
 }
 
 
+/* SKILL BARS */
+
+.html {
+  width: 80%;
+  background-color: 	#FF6347;
+}
+.css {
+  width: 70%;
+  background-color: 	#00BFFF;
+}
+.js {
+  width: 30%;
+  background-color: rgb(255, 255, 66);
+  color: black !important;
+}
+.bootstrap{
+  width: 50%;
+  background-color: rgb(121, 215, 247);
+}
+.node{
+  width: 10%;
+  background-color: rgb(99, 168, 99);
+}
+.git {
+  width: 50%;
+  background-color: rgb(133, 122, 122);
+}
+
+.skill-container {
+  width: 80%;
+  background-color: #ddd;
+  margin: auto;
+
+}
+
+.skill {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
 @media screen and (max-width: 768px) { /* from tablet view and so on*/
   .container-fluid {
     padding-left: 0 !important;
   }
   #sidebar {
     width: 100vw;
-    height: 20vh;
-    position: relative;
+    height: 10vh;
+    position: fixed;
 
   }
   .profile-picture {
@@ -137,6 +178,10 @@ hr.style4 {
     margin-right: 0.5rem;
     font-size: 1rem;
   }
+  .w-100 {
+    padding-top: 25% !important;
+  }
+  
 }
 
 @media screen and (max-width: 569px) { /* Iphone5/SE*/

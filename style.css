@@ -6,8 +6,8 @@
 }
 
 
-.body {
-  background-color: ghostwhite;
+body {
+  background-color: rgb(255, 255, 245) !important;
 }
 /* NAVIGATION BAR */
 
@@ -77,10 +77,27 @@ i{
   padding: 5px;
   
 }
-
-.icon:hover {
-  color: rgb(0, 82, 158) !important;
+.fb:hover {
+  color: rgb(0, 117, 212);
 }
+.ig:hover {
+  color: rgb(211, 67, 0);
+}
+.wp:hover {
+  color: rgb(0, 144, 192);
+}
+.tw:hover {
+  color: rgb(57, 205, 255);
+}
+.wp:hover {
+  color: rgb(0, 158, 211);
+}
+.gt:hover {
+  color: rgb(39, 20, 20) !important;
+}
+/* .icon:hover {
+  color: rgb(0, 82, 158) !important;
+} */
 
 
 .line::after{
